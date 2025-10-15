@@ -5,8 +5,7 @@ import Link from 'next/link'
 import { createClient } from '@/lib/supabase/client'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
-import { formatCurrency } from '@/lib/utils/lgpd'
-import { maskCPF } from '../../_components/selects' // ajuste se necessário
+import { formatCurrency, maskCPF } from '@/lib/utils/lgpd'
 
 const supabase = createClient()
 
